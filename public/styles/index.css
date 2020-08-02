@@ -1,0 +1,68 @@
+#page-index {
+    width: 90%;
+    max-width: 1100px;
+    height: 250px;
+
+    /* alinhamento de caixa (pelo lado de fora da caixa) */
+    margin: 0 auto;
+   
+}
+
+body form {
+    background-color: white;
+    padding: 64px;
+    max-height: 730px;
+    margin-right: 50%;
+}
+
+form fieldset {
+
+    border: 0;
+}
+
+fieldset legend h1 {
+    background-color: #2bbeb2;
+    border-radius: 8px;
+    padding: 12px 36px;
+}
+
+form .field {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+form .field-group {
+    display: flex
+}
+
+form input {
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 0;
+    margin-bottom: 16px;
+    background-color: #f0f0f5;
+
+    cursor: text;
+}
+
+form .field-group .field + .field {
+    margin-left: 24px;
+}
+
+form button {
+    height: 50px;
+    width: 260px;
+    
+    background-color: #2bbeb2;
+    border-radius: 8px;
+    border: 0;
+    
+    margin-top: 24px;
+    margin-left: 12px;
+    
+    font-weight: bold;
+    font-size: 16px;
+
+    cursor: pointer;
+}

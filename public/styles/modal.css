@@ -1,13 +1,23 @@
 #modal {
-    /* background-color: #0E0A14ef; */
+    background-color: #0E0A14ef;
+
+    width: 100vw;
+    height: 100vh;
 
     position: fixed;
     top: 0;
 
+    display: flex;
+
+    transition: 400ms;
+    
+}
+
+#modal.hide {
+    display: none;
 }
 
 body form {
-    background-color: white;
     padding: 64px;
     max-height: 730px;
     margin-right: 50%;
@@ -40,11 +50,36 @@ form input {
     border-radius: 8px;
     border: 0;
     margin-bottom: 16px;
-    background-color: #f0f0f5;
+    background-color: #dbdbdd;
 
     cursor: text;
 }
 
 form .field-group .field + .field {
     margin-left: 24px;
+}
+
+#modal .header {
+    display: flex;
+}
+
+#modal .header a {
+    text-decoration: none;
+
+    font-size: bold;
+
+    color: white;
+
+    margin-top: 20px;
+
+    height: 20px;
+    
+}
+
+#modal fieldset label {
+    color: white;
+
+    font-weight: bold;
+
+    margin-bottom: 8px;
 }

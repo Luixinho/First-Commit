@@ -36,9 +36,17 @@
 
         <main>
 
-            <h1>Cadastre novos gafanhotos de forma rápida e pratica sem ter que digitar várias linhas de código</h1>
+            <h1>BEM VINDO!</h1>
+
+            <h3>Cadastre novos gafanhotos de forma rápida e pratica sem ter que digitar várias linhas de código!</h3>
 
             <a href="#">Cadastrar novo gafanhoto</a>
+
+            <div class="output">
+
+                <p>{{bad}}</p>
+
+            </div>
 
         </main>
 
@@ -63,7 +71,7 @@
 
                 <div class="field">
                     <label for="name">Nome</label>
-                    <input type="text" id="name">
+                    <input type="text" name="name">
 
                 </div>
 
@@ -71,11 +79,11 @@
 
                     <div class="field">
                         <label for="name">Profissão</label>
-                        <input type="text" id="profession">
+                        <input type="text" name="profession">
                     </div>
                     <div class="field">
                         <label for="name">Nascimento</label>
-                        <input type="text" id="birth">
+                        <input type="text" name="birth">
                     </div>
 
                 </div>
@@ -84,11 +92,11 @@
 
                     <div class="field">
                         <label for="name">Sexo</label>
-                        <input type="text" id="sex">
+                        <input type="text" name="sex">
                     </div>
                     <div class="field">
                         <label for="name">Peso</label>
-                        <input type="text" id="weight">
+                        <input type="text" name="weight">
                     </div>
 
                 </div>
@@ -97,23 +105,18 @@
 
                     <div class="field">
                         <label for="name">Altura</label>
-                        <input type="text" id="height">
+                        <input type="text" name="height">
                     </div>
                     <div class="field">
-                        <label for="name">Nacionalidade</label>
-                        <input type="text" id="nationality">
+                        <label for="name">Nacionalnameade</label>
+                        <input type="text" name="nationality">
                     </div>
 
                 </div>
 
             </fieldset>
 
-            <div class="output">
-
-                <p>{{bad}}</p>
-
-            </div>
-
+            <button type="submit">Cadastrar</button>
 
         </form>
 

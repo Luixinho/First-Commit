@@ -8,6 +8,13 @@ body {
     align-items: center;
 }
 
+body .result {
+
+    display: flex;
+
+}
+
+
 body .result .name {
 
     color: white;
@@ -15,6 +22,12 @@ body .result .name {
     margin-bottom: 8px;
 
     font-size: 20px;
+
+}
+
+body .result .profession, .birth, .sex, .weight, .height, .nationality {
+
+    font-weight: bold;
 
 }
 
@@ -48,5 +61,7 @@ body .content {
     padding: 64px;
 
     box-sizing: border-box; /* Muda comprotamento de medição de espaço da caixa, para o conteúdo se modelar ao espaço definido da caixa */
+
+    display: grid;
 
 }

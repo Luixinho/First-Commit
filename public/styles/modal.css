@@ -37,6 +37,7 @@ fieldset legend h1 {
     background-color: #8a4fc0;
     border-radius: 8px;
     padding: 12px 36px;
+    color: white;
 }
 
 form .field {
@@ -88,8 +89,4 @@ form .field-group .field + .field {
     margin-bottom: 8px;
 }
 
-form button {
 
-    
-
-}
